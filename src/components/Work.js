@@ -7,10 +7,7 @@ import img2 from "../assets/webabsensi.jpg";
 import img3 from "../assets/digitalarsip.jpg";
 import img4 from "../assets/cutipegawai.jpg";
 import img5 from "../assets/ckpnnetflow.jpg";
-<<<<<<< HEAD
-=======
 import img6 from "../assets/tanggorajo.jpg";
->>>>>>> 4ca70e0 (Update my portfolio)
 
 import { fadeIn } from "../variants";
 
@@ -39,8 +36,6 @@ const Work = () => {
                 title="Web Bank Batanghari"
               />
             </a>
-<<<<<<< HEAD
-=======
             <a href="https://ptbprtanggorajoperseroda.com/" target="_blank">
               <ProjectCard
                 imgSrc={img6}
@@ -48,7 +43,6 @@ const Work = () => {
                 title="Web Bank Daerah Tanggo Rajo Perseroda"
               />
             </a>
->>>>>>> 4ca70e0 (Update my portfolio)
             <ProjectCard
               imgSrc={img2}
               category="Web Development"
