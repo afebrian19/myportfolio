@@ -17,7 +17,11 @@ import award from "../assets/award.jpg";
 
 const Contact = () => {
   return (
+<<<<<<< HEAD
     <section className="py-16 lg:section mt-[300px]" id="contact">
+=======
+    <section className="py-16 lg:section mt-[500px]" id="contact">
+>>>>>>> 4ca70e0 (Update my portfolio)
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
