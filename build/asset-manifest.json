@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.f5c845ca.css",
+    "main.js": "/myportfolio/static/js/main.183dc4a7.js",
+    "static/media/ckpnnetflow.jpg": "/myportfolio/static/media/ckpnnetflow.0706a90c5f08ace3dd14.jpg",
+    "static/media/Cvsaya.pdf": "/myportfolio/static/media/Cvsaya.407b8c549b1cf8f22bec.pdf",
+    "static/media/site-bg.jpg": "/myportfolio/static/media/site-bg.b0e0f6e024967419736f.jpg",
+    "static/media/tanggorajo.jpg": "/myportfolio/static/media/tanggorajo.e2eccb67fe2829c1f8d6.jpg",
+    "static/media/award.jpg": "/myportfolio/static/media/award.a15e65455b868e759d35.jpg",
+    "static/media/webbpr.jpg": "/myportfolio/static/media/webbpr.3665392eb7882229d839.jpg",
+    "static/media/webabsensi.jpg": "/myportfolio/static/media/webabsensi.a6bf1833e0cf12ff10b0.jpg",
+    "static/media/digitalarsip.jpg": "/myportfolio/static/media/digitalarsip.e45e6a23767945a7e6de.jpg",
+    "static/media/cutipegawai.jpg": "/myportfolio/static/media/cutipegawai.b8939f5a78d577a0dd0f.jpg",
+    "static/media/javascript.png": "/myportfolio/static/media/javascript.0ab4be8b3e7d20669b93.png",
+    "static/media/ms-excel.svg": "/myportfolio/static/media/ms-excel.235858151e09a20fdfa90007526e1c46.svg",
+    "static/media/logo.svg": "/myportfolio/static/media/logo.95087b75b71852928a3017b83cc01b9a.svg",
+    "static/media/ci3.svg": "/myportfolio/static/media/ci3.0d9da9ec896d765c1d40e77aea428610.svg",
+    "static/media/nextjs.svg": "/myportfolio/static/media/nextjs.e3c042b9d9d809ebb67e9bc6e1e5f70d.svg",
+    "static/media/photoshop.svg": "/myportfolio/static/media/photoshop.7fc8940dceb225b81a3a587bbfbcf84f.svg",
+    "static/media/html.svg": "/myportfolio/static/media/html.37bf6863fb717ae4cad4e56f9c291a86.svg",
+    "static/media/nodejs.svg": "/myportfolio/static/media/nodejs.d34a558d8c3f792388e6383c54a44835.svg",
+    "static/media/css.svg": "/myportfolio/static/media/css.ac1f9e5fab015740dfd8bf863dd74e8e.svg",
+    "index.html": "/myportfolio/index.html",
+    "static/media/avatar.svg": "/myportfolio/static/media/avatar.2c1ff1f70a3f4c99867ba0ad43e501ab.svg",
+    "main.f5c845ca.css.map": "/myportfolio/static/css/main.f5c845ca.css.map",
+    "main.183dc4a7.js.map": "/myportfolio/static/js/main.183dc4a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c845ca.css",
+    "static/js/main.183dc4a7.js"
+  ]
+}

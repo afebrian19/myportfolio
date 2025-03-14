@@ -39,7 +39,7 @@ const Work = () => {
             <a href="https://ptbprtanggorajoperseroda.com/" target="_blank">
               <ProjectCard
                 imgSrc={img6}
-                category="Web Development Bank"
+                // category="Web Development Bank"
                 title="Web Bank Daerah Tanggo Rajo Perseroda"
               />
             </a>

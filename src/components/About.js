@@ -38,18 +38,16 @@ const About = () => {
               three years."
             </h3>
             <p className="mb-1">
-              I am an IT with effective communication skills and 2.5 years of
-              experience as an IT Supervisor. In addition to my IT role, I also
-              serve as an ADMIN and Graphic Designer. I successfully developed
-              Digital Transformation initiatives at my workplace by creating
-              applications such as online credit applications, online deposit
-              systems, and digital archiving for outgoing correspondence and
-              office documents. I possess skills and have a keen interest in
-              computer networking and data analysis. I have experience with
-              programming languages and tools such as JavaScript, PHP
-              CodeIgniter, and Next.js. Additionally, I am proficient in
-              troubleshooting, networking, as well as hardware and software
-              support.
+              A graduate with a Bachelor's degree in Computer Science and over 3
+              years of experience in the IT field. I possess strong technical
+              skills, am innovative, and am always eager to learn new things
+              related to the IT industry. I am accustomed to working both as
+              part of a team and independently to achieve company goals.
+              Additionally, I have excellent experience with programming
+              languages such as HTML, PHP, and MySQL databases. I have developed
+              various applications, including a banking information system for
+              Bank Perekonomian Rakyat and an internal digital transformation
+              system for the bank.
             </p>
             {/* stat */}
             <div className="flex gap-x-3 lg:gap-x-10 mb-12">

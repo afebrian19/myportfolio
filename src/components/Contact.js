@@ -14,10 +14,13 @@ import nodejs from "../assets/nodejs.svg";
 import ps from "../assets/photoshop.svg";
 import excel from "../assets/ms-excel.svg";
 import award from "../assets/award.jpg";
+import api from "../assets/api.svg";
+import jquery from "../assets/jquery.svg";
+import laravel from "../assets/laravel.svg";
 
 const Contact = () => {
   return (
-    <section className="py-16 lg:section mt-[300px]" id="contact">
+    <section className="py-16 lg:section mt-[500px]" id="contact">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text */}
@@ -132,6 +135,30 @@ const Contact = () => {
                 className="w-24 h-24 rounded-full shadow-lg mb-2"
               />
               <span className="text-white">Photoshop</span>
+            </div>
+            <div className="flex flex-col items-center mx-4 mb-8">
+              <img
+                src={api} // Ganti dengan path gambar Next.js
+                alt="Next.js"
+                className="w-24 h-24 rounded-full shadow-lg mb-2"
+              />
+              <span className="text-white">API</span>
+            </div>
+            <div className="flex flex-col items-center mx-4 mb-8">
+              <img
+                src={laravel} // Ganti dengan path gambar Next.js
+                alt="Next.js"
+                className="w-24 h-24 rounded-full shadow-lg mb-2"
+              />
+              <span className="text-white">Laravel</span>
+            </div>
+            <div className="flex flex-col items-center mx-4 mb-8">
+              <img
+                src={jquery} // Ganti dengan path gambar Next.js
+                alt="Next.js"
+                className="w-24 h-24 rounded-full shadow-lg mb-2"
+              />
+              <span className="text-white">jquery</span>
             </div>
             {/* Tambahkan lebih banyak skill sesuai kebutuhan */}
           </motion.div>

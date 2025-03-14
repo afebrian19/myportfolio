@@ -103,10 +103,10 @@ const Banner = () => {
             <a href="https://www.instagram.com/afebrian_19" target="_blank">
               <FaInstagram />
             </a>
-            <a href="#">
+            <a href="https://github.com/afebrian19" target="_blank">
               <FaGithub />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/rianprasetio" target="_blank">
               <FaFacebook />
             </a>
           </motion.div>
