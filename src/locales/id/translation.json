@@ -1,0 +1,45 @@
+{
+  "aboutTitle": "Tentang saya",
+  "aboutSubtitle": "Saya adalah kepala bagian Teknologi Informasi di sebuah bank selama tiga tahun.",
+  "aboutDesc": "Lulusan dengan gelar Sarjana Ilmu Komputer...",
+  "experience": "Tahun Pengalaman",
+  "projects": "Proyek Selesai",
+  "bankExp": "Tahun Pengalaman sebagai IT di BANK",
+  "award": "Penghargaan OJK",
+  "contactMe": "Hubungi saya",
+  "cv": "CURRICULUM VITAE SAYA",
+
+  "iAm": "Saya adalah Seorang",
+  "role1": "Pengembang Fullstack",
+  "role2": "Desainer Grafis",
+  "role3": "Analisis Data",
+  "role4": "Jaringan IT",
+  "bannerDesc": "Sebagai pengembang web full-stack, saya mahir dalam berbagai bahasa pemrograman dan teknologi web. Saya juga memiliki keahlian dalam desain grafis, analisis data, visualisasi data, dan jaringan komputer.",
+  "myCv": "CURRICULUM VITAE SAYA",
+
+  "servicesTitle": "Apa yang saya lakukan",
+  "servicesSubtitle": "Saya seorang pengembang fullstack dengan pengalaman lebih dari 4 tahun.",
+  "seeMyWork": "Lihat Karya Saya",
+  "services": [
+    {
+      "name": "Pengembang Fullstack",
+      "description": "Sejalan dengan pasion saya sebagai programmer, saya mengembangkan aplikasi untuk membantu perusahaan menjangkau target pasar yang lebih luas melalui situs web, serta membangun aplikasi untuk membantu tugas-tugas seperti arsip digital, manajemen cuti, pelacakan kehadiran, dan lainnya."
+    },
+    {
+      "name": "Staf IT",
+      "description": "Sebagai staf IT, saya bertanggung jawab memastikan semua sistem teknologi informasi dan infrastruktur jaringan di perusahaan berjalan efektif dan efisien. Lingkup kerja saya meliputi pemeliharaan perangkat keras dan lunak, pengelolaan jaringan komputer, dan dukungan teknis untuk semua karyawan. Dalam hal manajemen jaringan, saya menangani konfigurasi dan administrasi perangkat MikroTik untuk routing, firewall, alokasi bandwidth, dan koneksi internet. Saya secara rutin memantau kinerja jaringan dan melakukan troubleshooting bila terjadi masalah konektivitas. Saya juga mengelola Windows Server, termasuk Active Directory, berbagi file, manajemen pengguna, dan konfigurasi hak akses sesuai kebutuhan tiap departemen. Selain itu, saya memastikan sistem server berjalan lancar, melakukan pembaruan, dan backup data secara rutin untuk mencegah kehilangan data. Sebagai bagian dari sistem keamanan perusahaan, saya juga merawat sistem CCTV, termasuk instalasi, pemeriksaan rutin perangkat DVR/NVR dan kamera, serta memantau konektivitas dan penyimpanan video. Di luar tugas teknis, saya melakukan inventarisasi dan dokumentasi aset IT, memberikan pelatihan dasar penggunaan perangkat dan software kepada pengguna, serta berkoordinasi dengan departemen lain untuk memenuhi kebutuhan teknologi informasi mereka. Melalui peran ini, saya berkomitmen untuk mendukung kelancaran operasional perusahaan dengan menyediakan solusi teknologi yang handal dan terintegrasi."
+    },
+    {
+      "name": "Desain Grafis",
+      "description": "Untuk keperluan pemasaran digital, saya mempelajari desain grafis untuk membuat konten promosi produk dan branding perusahaan di media sosial."
+    },
+    {
+      "name": "Analis Data",
+      "description": "Saya tertarik pada analisis data. Dalam peran saya sebagai administrator, saya mengelola data untuk keperluan perusahaan dan menyusun laporan bulanan, termasuk mengerjakan CKPN SAK EP untuk perbankan. Saya menggunakan Excel untuk mengelola data dan memvisualisasikannya dalam bentuk diagram dan grafik."
+    },
+    {
+      "name": "Pemasaran Digital",
+      "description": "Saya tertarik pada dunia pemasaran digital. Saya mengelola media sosial, menganalisis data, menangani branding produk, meningkatkan trafik situs web, dan mengembangkan rencana promosi produk melalui saluran digital."
+    }
+  ]
+}

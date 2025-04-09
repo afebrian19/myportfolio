@@ -1,16 +1,15 @@
 import React from "react";
-
 import Image from "../assets/avatar.svg";
 import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
-
 import { TypeAnimation } from "react-type-animation";
-
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
 import pdf from "../assets/Cvsaya.pdf";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       className="min-h-[60vh] lg:min-h-[20vh] flex items-center"
@@ -36,16 +35,16 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-4 text-[30px] lg:text-[60px] lg:mb-16 font-secondary font-semibold uppercase leading-[1]"
             >
-              <span className=" text-white mr-4">I am a</span>
+              <span className=" text-white mr-4">{t("iAm")}</span>
               <TypeAnimation
                 sequence={[
-                  "Fullstack Developer",
+                  t("role1"),
                   2000,
-                  "Graphic Design",
+                  t("role2"),
                   2000,
-                  "Data analytics",
+                  t("role3"),
                   2000,
-                  "IT Network",
+                  t("role4"),
                   2000,
                 ]}
                 speed={50}
@@ -62,10 +61,7 @@ const Banner = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="font-secondary max-w-sm mb-8"
           >
-            "As a full-stack web developer, I am proficient in various
-            programming languages and web technologies. I have expertise in
-            graphic design, data analysis, data visualization, computer
-            networking."
+            {t("bannerDesc")}
           </motion.p>
           <motion.div
             variants={fadeIn("up", 0.5)}
@@ -76,23 +72,23 @@ const Banner = () => {
           >
             <button className="btn btn-lg text-black">
               <a
-                href="https://wa.me/6285246011055" // Ganti dengan nomor WhatsApp Anda
+                href="https://wa.me/6285246011055"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Contact me
+                {t("contactMe")}
               </a>
             </button>
             <a
-              href={pdf} // Ganti dengan path file PDF Anda
+              href={pdf}
               target="_blank"
               rel="noopener noreferrer"
               className="text-gradient btn-link ml-4"
             >
-              MY CURRICULUM VITAE
+              {t("myCv")}
             </a>
           </motion.div>
-          {/*sosmed  */}
+          {/* sosmed */}
           <motion.div
             variants={fadeIn("down", 0.3)}
             initial="hidden"
@@ -112,7 +108,6 @@ const Banner = () => {
           </motion.div>
 
           {/* image */}
-
           <div className="hidden">
             <img src={Image} alt="" />
           </div>

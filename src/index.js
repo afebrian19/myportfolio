@@ -1,3 +1,4 @@
+import "./i18n"; // import sebelum App
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

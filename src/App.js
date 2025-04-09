@@ -7,11 +7,13 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 
 const App = () => {
   return (
     <div className="bg-site bg-no-repeat bg-cover overflow-x-hidden ">
       <Header />
+      <LanguageSwitcher />
       <Banner />
       <Nav />
       <About />

@@ -1,0 +1,45 @@
+{
+  "aboutTitle": "About me",
+  "aboutSubtitle": "I am the head of the Information Technology section at a bank for three years.",
+  "aboutDesc": "A graduate with a Bachelor's degree in Computer Science...",
+  "experience": "Years of Experience",
+  "projects": "Projects Complete",
+  "bankExp": "Years of Experience as IT of BANK",
+  "award": "Award OJK",
+  "contactMe": "Contact me",
+  "cv": "MY CURRICULUM VITAE",
+
+  "iAm": "I am a",
+  "role1": "Fullstack Developer",
+  "role2": "Graphic Design",
+  "role3": "Data Analytics",
+  "role4": "IT Network",
+  "bannerDesc": "As a full-stack web developer, I am proficient in various programming languages and web technologies. I have expertise in graphic design, data analysis, data visualization, computer networking.",
+  "myCv": "MY CURRICULUM VITAE",
+
+  "servicesTitle": "What I do",
+  "servicesSubtitle": "I'm a fullstack developer with over 4 years of experience.",
+  "seeMyWork": "See My Work",
+  "services": [
+    {
+      "name": "Fullstack Developer",
+      "description": "With my passion for programming, I develop applications to help the company reach a broader target market through the website, as well as build applications to assist with tasks such as digital archiving, leave management, attendance tracking, and more."
+    },
+    {
+      "name": "IT Staff",
+      "description": "As an IT Staff, I am responsible for ensuring that all information technology systems and network infrastructure within the company operate effectively and efficiently. My scope of work includes maintaining hardware and software, managing computer networks, and providing technical support to all employees. In terms of network management, I handle the configuration and administration of MikroTik devices for routing, firewall, bandwidth allocation, and internet connectivity. I regularly monitor network performance and perform troubleshooting in the event of connectivity issues. I am also responsible for managing Windows Server, including Active Directory, file sharing, user management, and access rights configuration according to the needs of each department. Additionally, I ensure the server systems run smoothly, perform updates, and conduct regular data backups to prevent data loss. As part of the company’s security system, I maintain the CCTV system, including installation, routine inspections of devices such as DVR/NVR and cameras, as well as monitoring connectivity and video storage. Beyond technical tasks, I conduct IT asset inventory and documentation, provide basic training on device and software usage to users, and coordinate with other departments to meet their information technology needs. Through this role, I am committed to supporting the smooth operation of the company by delivering reliable and integrated technology solutions."
+    },
+    {
+      "name": "Design Graphic",
+      "description": "For digital marketing purposes, I am studying graphic design to create promotional content for products and company branding for social media."
+    },
+    {
+      "name": "Data Analyst",
+      "description": "I am interested in data analysis. In my role as an administrator, I manage data for the company's needs and prepare monthly reports, including working on CKPN SAK EP for banking. I utilize Excel to manage the data and visualize it in the form of diagrams and charts."
+    },
+    {
+      "name": "Digital Marketing",
+      "description": "I am interested in the world of digital marketing. I manage social media, analyze data, handle product branding, increase website traffic, and develop promotional plans for products through digital channels."
+    }
+  ]
+}
