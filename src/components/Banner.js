@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "../assets/avatar.svg";
-import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
@@ -10,6 +10,25 @@ import { useTranslation } from "react-i18next";
 const Banner = () => {
   const { t } = useTranslation();
 
+  const socialLinks = [
+    {
+      icon: <FaInstagram />,
+      link: "https://www.instagram.com/afebrian_19",
+    },
+    {
+      icon: <FaGithub />,
+      link: "https://github.com/afebrian19",
+    },
+    {
+      icon: <FaFacebook />,
+      link: "https://www.facebook.com/rianprasetio",
+    },
+    {
+      icon: <FaLinkedin />,
+      link: "https://www.linkedin.com/in/a-febriansyah-26115515b/",
+    },
+  ];
+
   return (
     <section
       className="min-h-[60vh] lg:min-h-[20vh] flex items-center"
@@ -17,25 +36,25 @@ const Banner = () => {
     >
       <div className="container mx-auto">
         <div>
-          {/* text */}
+          {/* TEXT */}
           <div className="flex-1 text-center font-secondary lg:text-left">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
               className="text-[55px] font-bold leading-[1.1] lg:text-[110px]"
             >
               A <span>FEBRIANSYAH</span>
             </motion.h1>
+
             <motion.div
               variants={fadeIn("up", 0.4)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, amount: 0.7 }}
               className="mb-4 text-[30px] lg:text-[60px] lg:mb-16 font-secondary font-semibold uppercase leading-[1]"
             >
               <span className=" text-white mr-4">{t("iAm")}</span>
+
               <TypeAnimation
                 sequence={[
                   t("role1"),
@@ -54,20 +73,20 @@ const Banner = () => {
               />
             </motion.div>
           </div>
+
           <motion.p
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
             className="font-secondary max-w-sm mb-8"
           >
             {t("bannerDesc")}
           </motion.p>
+
           <motion.div
             variants={fadeIn("up", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
             className="flex max-w-max gap-x-6 items-center mb-12 max-auto lg:mx-0"
           >
             <button className="btn btn-lg text-black">
@@ -79,6 +98,7 @@ const Banner = () => {
                 {t("contactMe")}
               </a>
             </button>
+
             <a
               href={pdf}
               target="_blank"
@@ -88,26 +108,59 @@ const Banner = () => {
               {t("myCv")}
             </a>
           </motion.div>
-          {/* sosmed */}
-          <motion.div
-            variants={fadeIn("down", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-            viewport={{ once: false, amount: 0.7 }}
-            className="flex text-[50px] gap-x-6 max-w-max mx-auto lg:mx-0"
-          >
-            <a href="https://www.instagram.com/afebrian_19" target="_blank">
-              <FaInstagram />
-            </a>
-            <a href="https://github.com/afebrian19" target="_blank">
-              <FaGithub />
-            </a>
-            <a href="https://www.facebook.com/rianprasetio" target="_blank">
-              <FaFacebook />
-            </a>
+
+          {/* SOCIAL ICONS — MODE DEWA */}
+          <motion.div className="flex text-[50px] gap-x-8 max-w-max mx-auto lg:mx-0">
+            {socialLinks.map((item, index) => (
+              <motion.a
+                key={index}
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 60 }}
+                animate={{
+                  opacity: 1,
+                  y: [0, -10, 0], // floating natural
+                }}
+                transition={{
+                  delay: index * 0.2,
+                  duration: 4,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                whileHover={{
+                  scale: 1.4,
+                  rotate: 10,
+                  y: -8,
+                  transition: {
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 10,
+                  },
+                }}
+                whileTap={{ scale: 0.8 }}
+                className="
+        relative
+        cursor-pointer
+        transition-all
+        duration-300
+        hover:text-yellow-400
+        hover:drop-shadow-[0_0_20px_rgba(255,255,0,0.9)]
+        before:absolute
+        before:-inset-3
+        before:rounded-full
+        before:opacity-0
+        hover:before:opacity-100
+        before:bg-yellow-400/10
+        before:blur-xl
+      "
+              >
+                {item.icon}
+              </motion.a>
+            ))}
           </motion.div>
 
-          {/* image */}
+          {/* IMAGE */}
           <div className="hidden">
             <img src={Image} alt="" />
           </div>

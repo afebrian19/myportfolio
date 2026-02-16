@@ -1,7 +1,5 @@
 import React from "react";
-
 import { motion } from "framer-motion";
-
 import { fadeIn } from "../variants";
 
 import icon1 from "../assets/nextjs.svg";
@@ -19,25 +17,39 @@ import jquery from "../assets/jquery.svg";
 import laravel from "../assets/laravel.svg";
 
 const Contact = () => {
+  const skills = [
+    { img: html, name: "HTML" },
+    { img: css, name: "CSS" },
+    { img: javascript, name: "JavaScript" },
+    { img: ci3, name: "CodeIgniter" },
+    { img: mysql, name: "MySQL" },
+    { img: icon1, name: "Next.js" },
+    { img: nodejs, name: "Node.js" },
+    { img: excel, name: "Ms. Excel" },
+    { img: ps, name: "Photoshop" },
+    { img: api, name: "API" },
+    { img: laravel, name: "Laravel" },
+    { img: jquery, name: "jQuery" },
+  ];
+
   return (
     <section className="py-16 lg:section mt-[500px]" id="contact">
       <div className="container mx-auto">
+        {/* HEADER */}
         <div className="flex flex-col lg:flex-row">
-          {/* text */}
           <div className="flex-1">
-            <div>
-              <h4 className="text-xl uppercase text-yellow-500 font-medium mb-2 tracking-wide">
-                Get in Touch
-              </h4>
-              <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
-                Let's Work <br /> together!
-              </h2>
-            </div>
+            <h4 className="text-xl uppercase text-yellow-500 font-medium mb-2 tracking-wide">
+              Get in Touch
+            </h4>
+
+            <h2 className="text-[45px] lg:text-[90px] leading-none mb-12">
+              Let's Work <br /> together!
+            </h2>
           </div>
-          {/* WhatsApp link */}
+
           <div className="flex-1">
             <a
-              href="https://wa.me/6285246011055" // Ganti dengan nomor WhatsApp Anda
+              href="https://wa.me/6285246011055"
               className="w-full block border border-yellow-500 bg-transparent py-4 px-6 text-yellow-500 text-center hover:bg-yellow-500 hover:text-white transition duration-300"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,142 +58,84 @@ const Contact = () => {
             </a>
           </div>
         </div>
-        {/* Skill Section */}
+
+        {/* SKILLS MODE DEWA */}
         <div className="mt-16">
-          <h3 className="text-2xl text-yellow-500 font-medium mb-4">
+          <h3 className="text-2xl text-yellow-500 font-medium mb-6">
             My Skills
           </h3>
+
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
             whileInView={"show"}
-            viewport={{ once: false, amount: 0.3 }}
-            className="flex flex-wrap justify-center"
+            className="flex flex-wrap justify-center gap-10"
           >
-            {/* Skill: HTML */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={html} // Ganti dengan path gambar HTML
-                alt="HTML"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">HTML</span>
-            </div>
-            {/* Skill: CSS */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={css} // Ganti dengan path gambar CSS
-                alt="CSS"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">CSS</span>
-            </div>
-            {/* Skill: JavaScript */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={javascript} // Ganti dengan path gambar JavaScript
-                alt="JavaScript"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">JavaScript</span>
-            </div>
-            {/* Skill: PHP */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={ci3} // Ganti dengan path gambar PHP
-                alt="Codeigniter"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">CodeIgniter</span>
-            </div>
-            {/* Skill: SQL */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={mysql} // Ganti dengan path gambar SQL
-                alt="MySQL"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">MySQL</span>
-            </div>
-            {/* Skill: Next.js */}
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={icon1} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">Next.js</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={nodejs} // Ganti dengan path gambar Next.js
-                alt="Nodejs"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">Node.js</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={excel} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">Ms. Excel</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={ps} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">Photoshop</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={api} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">API</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={laravel} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">Laravel</span>
-            </div>
-            <div className="flex flex-col items-center mx-4 mb-8">
-              <img
-                src={jquery} // Ganti dengan path gambar Next.js
-                alt="Next.js"
-                className="w-24 h-24 rounded-full shadow-lg mb-2"
-              />
-              <span className="text-white">jquery</span>
-            </div>
-            {/* Tambahkan lebih banyak skill sesuai kebutuhan */}
+            {skills.map((skill, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 60 }}
+                animate={{
+                  opacity: 1,
+                  y: [0, -12, 0],
+                }}
+                transition={{
+                  delay: index * 0.1,
+                  duration: 4,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+                whileHover={{
+                  scale: 1.2,
+                  rotate: 5,
+                  y: -10,
+                  transition: {
+                    type: "spring",
+                    stiffness: 400,
+                    damping: 10,
+                  },
+                }}
+                className="
+                  flex flex-col items-center
+                  cursor-pointer
+                  relative
+                  group
+                "
+              >
+                <img
+                  src={skill.img}
+                  alt={skill.name}
+                  className="
+                    w-24 h-24 rounded-full shadow-lg
+                    transition-all duration-300
+                    group-hover:drop-shadow-[0_0_25px_rgba(255,255,0,0.9)]
+                  "
+                />
+
+                <span className="text-white mt-2">{skill.name}</span>
+              </motion.div>
+            ))}
           </motion.div>
         </div>
 
-        {/* Award Section */}
+        {/* AWARD */}
         <div className="mt-16">
           <h3 className="text-2xl text-yellow-500 font-medium mb-4">Award</h3>
-          <div className="flex flex-wrap justify-center">
-            {/* Award 1 */}
-            <div className="mx-4 mb-8 text-center mb-10">
-              <img
-                src={award} // Ganti dengan path gambar award 1
-                alt="Award 1"
-                className="w-90 h-80 rounded-lg shadow-lg transition-transform duration-300 transform hover:scale-110"
-              />
-              <h4 className="text-lg text-white-800 font-bold mt-10">
-                "Optimalisasi Akses Keuangan Melalui Website Terbaik 2022"
-              </h4>{" "}
-              {/* Judul di bawah gambar */}
-            </div>
-            {/* Tambahkan lebih banyak award sesuai kebutuhan */}
-          </div>
+
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="flex justify-center"
+          >
+            <img
+              src={award}
+              alt="Award"
+              className="w-90 h-80 rounded-lg shadow-lg"
+            />
+          </motion.div>
+
+          <h4 className="text-lg text-center font-bold mt-10">
+            "Optimalisasi Akses Keuangan Melalui Website Terbaik 2022"
+          </h4>
         </div>
       </div>
     </section>
