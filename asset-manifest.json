@@ -1,19 +1,30 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.66123c64.css",
-    "main.js": "/myportfolio/static/js/main.4d75b271.js",
+    "main.css": "/myportfolio/static/css/main.7e922bf2.css",
+    "main.js": "/myportfolio/static/js/main.9d4149f5.js",
+    "static/media/id.png": "/myportfolio/static/media/id.54b2ee6329b2e3271ce4.png",
     "static/media/Cvsaya.pdf": "/myportfolio/static/media/Cvsaya.aeeb69acc1b9b2eed6e6.pdf",
+    "static/media/en.png": "/myportfolio/static/media/en.5ef6901809bc4f68c06e.png",
     "static/media/ckpnnetflow.jpg": "/myportfolio/static/media/ckpnnetflow.0706a90c5f08ace3dd14.jpg",
     "static/media/site-bg.jpg": "/myportfolio/static/media/site-bg.b0e0f6e024967419736f.jpg",
     "static/media/tanggorajo.jpg": "/myportfolio/static/media/tanggorajo.e2eccb67fe2829c1f8d6.jpg",
+    "static/media/crosingtransaksi.jpg": "/myportfolio/static/media/crosingtransaksi.4ae456704899d34ddf74.jpg",
+    "static/media/inventoryit.jpg": "/myportfolio/static/media/inventoryit.039f477005eb3f00ad46.jpg",
     "static/media/award.jpg": "/myportfolio/static/media/award.a15e65455b868e759d35.jpg",
     "static/media/webbpr.jpg": "/myportfolio/static/media/webbpr.3665392eb7882229d839.jpg",
+    "static/media/transaksiapp.jpg": "/myportfolio/static/media/transaksiapp.4ddd4e6384af9a417bf2.jpg",
+    "static/media/crosingshift.jpg": "/myportfolio/static/media/crosingshift.029b046c6aa3e61168b4.jpg",
+    "static/media/produkapp.jpg": "/myportfolio/static/media/produkapp.d31df388e89eec27c57a.jpg",
+    "static/media/crosingticket.jpg": "/myportfolio/static/media/crosingticket.40ec0645bc46faaba2ee.jpg",
+    "static/media/dashboardapp.jpg": "/myportfolio/static/media/dashboardapp.af8e4dcaa3b8e2cff025.jpg",
+    "static/media/poscrossingriver.jpg": "/myportfolio/static/media/poscrossingriver.7a2f0e4418d544286f35.jpg",
     "static/media/webabsensi.jpg": "/myportfolio/static/media/webabsensi.a6bf1833e0cf12ff10b0.jpg",
     "static/media/digitalarsip.jpg": "/myportfolio/static/media/digitalarsip.e45e6a23767945a7e6de.jpg",
     "static/media/cutipegawai.jpg": "/myportfolio/static/media/cutipegawai.b8939f5a78d577a0dd0f.jpg",
+    "static/media/crosingadd.jpg": "/myportfolio/static/media/crosingadd.6ba84c73bb6a1c4df370.jpg",
     "static/media/javascript.png": "/myportfolio/static/media/javascript.0ab4be8b3e7d20669b93.png",
     "static/media/ms-excel.svg": "/myportfolio/static/media/ms-excel.235858151e09a20fdfa90007526e1c46.svg",
-    "static/media/logo.svg": "/myportfolio/static/media/logo.95087b75b71852928a3017b83cc01b9a.svg",
+    "static/media/logo.svg": "/myportfolio/static/media/logo.76329f0ae1aeaae5556c0dd2284ad819.svg",
     "static/media/ci3.svg": "/myportfolio/static/media/ci3.0d9da9ec896d765c1d40e77aea428610.svg",
     "static/media/api.svg": "/myportfolio/static/media/api.c78a370b7617485ccaab4249c55a901f.svg",
     "static/media/jquery.svg": "/myportfolio/static/media/jquery.a720425624c73a7db991c7b40927c65c.svg",
@@ -24,12 +35,12 @@
     "static/media/nodejs.svg": "/myportfolio/static/media/nodejs.d34a558d8c3f792388e6383c54a44835.svg",
     "static/media/css.svg": "/myportfolio/static/media/css.ac1f9e5fab015740dfd8bf863dd74e8e.svg",
     "index.html": "/myportfolio/index.html",
-    "static/media/avatar.svg": "/myportfolio/static/media/avatar.2c1ff1f70a3f4c99867ba0ad43e501ab.svg",
-    "main.66123c64.css.map": "/myportfolio/static/css/main.66123c64.css.map",
-    "main.4d75b271.js.map": "/myportfolio/static/js/main.4d75b271.js.map"
+    "static/media/avatar.svg": "/myportfolio/static/media/avatar.e1124066e7255aba263651c97fe7580c.svg",
+    "main.7e922bf2.css.map": "/myportfolio/static/css/main.7e922bf2.css.map",
+    "main.9d4149f5.js.map": "/myportfolio/static/js/main.9d4149f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.66123c64.css",
-    "static/js/main.4d75b271.js"
+    "static/css/main.7e922bf2.css",
+    "static/js/main.9d4149f5.js"
   ]
 }
